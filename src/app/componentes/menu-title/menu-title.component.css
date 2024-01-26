@@ -1,0 +1,17 @@
+.title-container{
+  color: aliceblue;
+}
+
+.title-container h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 120px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.title-container hr {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
