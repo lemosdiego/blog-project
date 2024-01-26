@@ -4,7 +4,7 @@
       <img src="{{ cardImg }}" alt="">
     </div>
     <div class="small-card-titulo">
-      <h1>{{ cardSubtitle }}</h1>
+      <h1><a [routerLink]="['content', Id]">{{ cardSubtitle }}</a></h1>
     </div>
   </div>
   <div class="separator">

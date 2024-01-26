@@ -4,9 +4,9 @@
     alt="Halo IMG">
   </div>
   <div class="big-card-titulo">
-    <h1><a href="#">{{ cardTitulo }}</a></h1>
+    <h1><a [routerLink]="['content', Id]">{{ cardTitulo }}</a></h1>
   </div>
   <div class="big-card-descrição">
-    <p><a href="#">{{cardDescricao}}</a></p>
+    <p><a [routerLink]="['content', Id]">{{cardDescricao}}</a></p>
   </div>
 </div>
